@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
         <strong>{{ product.name }}</strong> Price: {{ product.price }}
       </li>
     </ul>
+    <angular-app-button></angular-app-button>
   `,
 })
 export class AppComponent {
